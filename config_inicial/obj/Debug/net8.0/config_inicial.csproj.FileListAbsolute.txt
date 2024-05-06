@@ -1,0 +1,15 @@
+C:\BootCamps\BootCamp-.Net-Developer-DIO\config_inicial\bin\Debug\net8.0\config_inicial.exe
+C:\BootCamps\BootCamp-.Net-Developer-DIO\config_inicial\bin\Debug\net8.0\config_inicial.deps.json
+C:\BootCamps\BootCamp-.Net-Developer-DIO\config_inicial\bin\Debug\net8.0\config_inicial.runtimeconfig.json
+C:\BootCamps\BootCamp-.Net-Developer-DIO\config_inicial\bin\Debug\net8.0\config_inicial.dll
+C:\BootCamps\BootCamp-.Net-Developer-DIO\config_inicial\bin\Debug\net8.0\config_inicial.pdb
+C:\BootCamps\BootCamp-.Net-Developer-DIO\config_inicial\obj\Debug\net8.0\config_inicial.GeneratedMSBuildEditorConfig.editorconfig
+C:\BootCamps\BootCamp-.Net-Developer-DIO\config_inicial\obj\Debug\net8.0\config_inicial.AssemblyInfoInputs.cache
+C:\BootCamps\BootCamp-.Net-Developer-DIO\config_inicial\obj\Debug\net8.0\config_inicial.AssemblyInfo.cs
+C:\BootCamps\BootCamp-.Net-Developer-DIO\config_inicial\obj\Debug\net8.0\config_inicial.csproj.CoreCompileInputs.cache
+C:\BootCamps\BootCamp-.Net-Developer-DIO\config_inicial\obj\Debug\net8.0\config_inicial.sourcelink.json
+C:\BootCamps\BootCamp-.Net-Developer-DIO\config_inicial\obj\Debug\net8.0\config_inicial.dll
+C:\BootCamps\BootCamp-.Net-Developer-DIO\config_inicial\obj\Debug\net8.0\refint\config_inicial.dll
+C:\BootCamps\BootCamp-.Net-Developer-DIO\config_inicial\obj\Debug\net8.0\config_inicial.pdb
+C:\BootCamps\BootCamp-.Net-Developer-DIO\config_inicial\obj\Debug\net8.0\config_inicial.genruntimeconfig.cache
+C:\BootCamps\BootCamp-.Net-Developer-DIO\config_inicial\obj\Debug\net8.0\ref\config_inicial.dll
