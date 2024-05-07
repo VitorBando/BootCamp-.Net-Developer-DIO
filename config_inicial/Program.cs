@@ -80,3 +80,91 @@ int.TryParse(a6, out b6);
 
 Console.WriteLine(b6);
 
+// Operador Condicional IF|ELSE IF| ELSE na prática
+
+int quantidadeEmEstoque = 10;
+int quantidadeCompra = 4;
+bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
+
+Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+Console.WriteLine($"Quantidade compra: {quantidadeCompra}");
+Console.WriteLine($"É possível realizar a venda? {possivelVenda}");
+
+if (quantidadeCompra == 0)
+{
+    Console.WriteLine("Venda inválida.");
+}
+
+else if (possivelVenda)
+{
+    Console.WriteLine("Venda realizada.");
+}
+else 
+{
+    Console.WriteLine("Desculpe. Não temos a quantidade desejada em estoque.");
+}
+
+// Aprendendo Switch case
+
+Console.WriteLine("Digite uma letra");
+string letra = Console.ReadLine(); // Entrada de dados via terminal
+
+// V3
+
+switch(letra)
+{
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":  
+        Console.WriteLine("Vogal");
+        break;
+    default:
+        Console.WriteLine("Não é vogal");
+        break;
+}
+
+// V2
+
+if (
+    letra == "a" ||
+    letra == "e" ||
+    letra == "i" ||
+    letra == "o" ||
+    letra == "u"
+)
+{
+    Console.WriteLine("Vogal");
+}
+else
+{  
+    Console.WriteLine("Não é vogal");
+}
+
+// V1
+
+if (letra == "a")
+{
+    Console.WriteLine("Vogal");
+}
+else if (letra == "e")
+{
+    Console.WriteLine("Vogal");
+}
+else if (letra == "i")
+{
+    Console.WriteLine("Vogal");
+}
+else if (letra == "o")
+{
+    Console.WriteLine("Vogal");
+}
+else if (letra == "u")
+{
+    Console.WriteLine("Vogal");
+}
+else 
+{
+    Console.WriteLine("Não é uma vogal");
+}
