@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = config_inicial
-build_property.ProjectDir = c:\BootCamps\BootCamp-.Net-Developer-DIO\config_inicial\
+build_property.ProjectDir = C:\BootCamps\BootCamp-.Net-Developer-DIO\config_inicial\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

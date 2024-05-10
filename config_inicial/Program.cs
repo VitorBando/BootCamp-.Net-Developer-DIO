@@ -1,4 +1,4 @@
-﻿// usando classe Pessoa
+﻿usando classe Pessoa
 using config_inicial.Models;
 
 Pessoa p = new Pessoa();
@@ -167,4 +167,47 @@ else if (letra == "u")
 else 
 {
     Console.WriteLine("Não é uma vogal");
+}
+
+// Operadores lógicos
+
+// OR (||)
+bool maiorIdade = true;
+bool temAutorizacaoResponsavel = false;
+
+if (maiorIdade || temAutorizacaoResponsavel)
+{
+    Console.WriteLine("Entrada Autorizada!");
+}
+else
+{
+    Console.WriteLine("Entrada não permitida");
+}
+
+// AND (&&)
+
+bool presencaMinima = true;
+double media = 7.5;
+
+if (presencaMinima && media >= 7)
+{
+    Console.WriteLine("Aprovado!");
+}
+else
+{
+    Console.WriteLine("Reprovado!");
+}
+
+// NOT (!)
+
+bool choveu = false;
+bool estaTarde = false;
+
+if (!choveu && !estaTarde)
+{
+    Console.WriteLine("Vou pedalar!");
+}
+else
+{
+    Console.WriteLine("Vou pedalar outro dia!");
 }
