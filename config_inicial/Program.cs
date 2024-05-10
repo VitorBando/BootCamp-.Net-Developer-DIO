@@ -1,5 +1,5 @@
-﻿usando classe Pessoa
-using config_inicial.Models;
+﻿// usando classe Pessoa
+ using config_inicial.Models;
 
 Pessoa p = new Pessoa();
 
@@ -211,3 +211,33 @@ else
 {
     Console.WriteLine("Vou pedalar outro dia!");
 }
+
+
+// Operadores Aritméticos e a classe Math
+Calculadora calc = new Calculadora();
+
+calc.Somar(573,974);
+calc.Subtrair(942,654);
+calc.Multiplicar(9,87);
+calc.Divisao(10,5);
+
+calc.Potencia(3,3);
+
+calc.Seno(30);
+calc.Coseno(30);
+calc.Tangente(30);
+
+calc.RaizQuadrada(9);
+
+// Incremento e Decremento
+
+int numero = 10;
+
+Console.WriteLine(numero);
+Console.WriteLine("Incrementando o numero 10");
+numero ++;
+Console.WriteLine(numero);
+Console.WriteLine("Decremantando o numero 10 duas vezes");
+numero --;
+numero --;
+Console.WriteLine(numero);
