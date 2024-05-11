@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/config_inicial/bin/Debug/net8.0/config_inicial.dll",
             "args": [],
             "cwd": "${workspaceFolder}/config_inicial",
-            "console": "internalConsole",
+            "console": "integratedTerminal",
             "stopAtEntry": false
         },
         {
