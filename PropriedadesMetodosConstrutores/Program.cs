@@ -1,15 +1,27 @@
 ﻿using PropriedadesMetodosConstrutores.Models;
 
-Pessoa p1 = new Pessoa(nome:"Vitor", sobrenome:"Bando");
-Pessoa p2 = new Pessoa(nome:"Ana", sobrenome:"Rocha");
+decimal valorMonetario = 82.40M;
 
-Curso cursoDeIngles = new Curso();
-cursoDeIngles.Nome = "Ingles";
-cursoDeIngles.Alunos = new List<Pessoa>();
+Console.WriteLine($"{valorMonetario:C}");
 
-cursoDeIngles.AdicionarAluno(p1);
-cursoDeIngles.AdicionarAluno(p2);
-cursoDeIngles.ListarAlunos();
+// Concatenado valores
+string numero1 = "10";
+string numero2 = "20";
+
+string resultado = numero1 + numero2;
+
+Console.WriteLine(resultado);
+
+//Pessoa p1 = new Pessoa(nome:"Vitor", sobrenome:"Bando");
+//Pessoa p2 = new Pessoa(nome:"Ana", sobrenome:"Rocha");
+
+//Curso cursoDeIngles = new Curso();
+//cursoDeIngles.Nome = "Ingles";
+//cursoDeIngles.Alunos = new List<Pessoa>();
+
+//cursoDeIngles.AdicionarAluno(p1);
+//cursoDeIngles.AdicionarAluno(p2);
+//cursoDeIngles.ListarAlunos();
 
 
 // Pessoa p1 = new Pessoa();
