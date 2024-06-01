@@ -27,9 +27,13 @@ namespace PropriedadesMetodosConstrutores.Models
         public void ListarAlunos()
         {   
             Console.WriteLine($"Alunos do curso: {Nome}");
-            foreach (Pessoa aluno in Alunos)
+            
+            for (int count = 0; count < Alunos.Count; count++);
             {
-                Console.WriteLine(aluno.NomeCompleto);
+                string texto = "Nº " + count + " - " + Alunos[count].NomeCompleto; // concatenação
+                string texto2 = $"Nº {count + 1} - {Alunos[count].NomeCompleto}"; // interpolação mais ajuste da numeração 
+                Console.WriteLine(texto);
+                Console.WriteLine(texto2);
             }
         }
     }
