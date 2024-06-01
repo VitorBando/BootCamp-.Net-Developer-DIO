@@ -1,8 +1,34 @@
 ﻿using PropriedadesMetodosConstrutores.Models;
+using System.Globalization;
+
+// Alterando a região do código
+CultureInfo.DefaultThreaCurrentCulture = new CultureInfo("en-US");
+
+// Personalizando no time DateTime
+DateTime data = DateTime.Now;
+Console.WriteLine(data.ToString("dd/MM/yyyy HH:mm");
+
+// formatando para apenas data
+Console.WriteLine(data.ToShortDateString());
+// formatando para apenas hora
+Console.WriteLine(data.ToShortTimeString());
+                  
+// Personalizando um tipo de valor ex: cpf
+int numero = 01234567890;
+Console.WriteLine(numero.ToString("###.###.###-##");
+
+// Formato de %
+double porcentagem = .3421;
+Console.WriteLine(porcentagem.ToString("P"));
 
 decimal valorMonetario = 82.40M;
-
 Console.WriteLine($"{valorMonetario:C}");
+// Alterando região/cultura para uma parte do código
+Console.WriteLine(valorMonetario.ToString("C", CultureInfo.CreateSpecificCulture("en-US")));
+// Personalizando a formatação
+Console.WriteLine(valorMonetario.ToString("C8"));
+
+
 
 // Concatenado valores
 string numero1 = "10";
