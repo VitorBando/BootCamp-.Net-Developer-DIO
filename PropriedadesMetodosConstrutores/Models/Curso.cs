@@ -28,7 +28,7 @@ namespace PropriedadesMetodosConstrutores.Models
         {   
             Console.WriteLine($"Alunos do curso: {Nome}");
             
-            for (int count = 0; count < Alunos.Count; count++);
+            for (int count = 0; count < Alunos.Count; count++)
             {
                 string texto = "Nº " + count + " - " + Alunos[count].NomeCompleto; // concatenação
                 string texto2 = $"Nº {count + 1} - {Alunos[count].NomeCompleto}"; // interpolação mais ajuste da numeração 
