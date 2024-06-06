@@ -1,6 +1,27 @@
 ﻿using PropriedadesMetodosConstrutores.Models;
 using System.Globalization;
 
+// Estruta de dados pilha LIFO
+Stack<int> pilha = new Stack<int>();
+
+pilha.Push(1);
+pilha.Push(3);
+pilha.Push(5);
+pilha.Push(7);
+
+foreach (int item in pilha)
+{
+    Console.WriteLine(item);
+}
+
+Console.WriteLine($"Removendo o item do topo {pilha.Pop()}");
+pilha.Push(10);
+
+foreach (int item in pilha)
+{
+    Console.WriteLine(item);
+}
+
 // Estruta de dados fila FIFO
 Queue<int> fila = new Queue<int>();
 
