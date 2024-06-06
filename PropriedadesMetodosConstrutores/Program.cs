@@ -1,8 +1,32 @@
 ﻿using PropriedadesMetodosConstrutores.Models;
 using System.Globalization;
 
+// Estruta de dados fila FIFO
+Queue<int> fila = new Queue<int>();
+
+fila.Enqueue(2);
+fila.Enqueue(3);
+fila.Enqueue(4);
+fila.Enqueue(5);
+fila.Enqueue(6);
+
+foreach (int item in fila)
+{
+    Console.WriteLine(item);
+}
+
+Console.WriteLine($"Removendo o elemento: {fila.Dequeue()}");
+fila.Enqueue(10);
+
+foreach (int item in fila)
+{
+    Console.WriteLine(item);
+}
+
+// implementando exceções
 new ExemploExcecao().Metodo1();
 
+// Introdução exceções
 try{
 string[] linhas  = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
 
