@@ -1,6 +1,40 @@
 ﻿using PropriedadesMetodosConstrutores.Models;
 using System.Globalization;
 
+
+// Estrutura de dados dicionario chave,valor
+Dictionary<string, string> estados = new Dictionary<string, string>();
+
+estados.Add("SP","São Paulo");
+estados.Add("BA","Bahia");
+estados.Add("MG","Minas Gerais");
+
+foreach (KeyValuePair<string, string> item in estados)
+{
+    Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+}
+
+estados.Remove("BA");
+estados["SP"] = "São Paulo - Alterado";
+
+foreach (KeyValuePair<string, string> item in estados)
+{
+    Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+}
+
+string chave = "BA";
+Console.WriteLine($"Verificando o Elemento {chave}");
+
+if (estados.ContainsKey(chave))
+{
+    Console.WriteLine($"Valor existente: {chave}");
+}
+else
+{
+    Console.WriteLine($"Valor não existe. É seguro adicionar a chave: {chave}");
+}
+
+
 // Estruta de dados pilha LIFO
 Stack<int> pilha = new Stack<int>();
 
